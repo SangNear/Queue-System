@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import ForgotLogo from "../../assets/img/Logo alta.png"
 
 import '../auth/Forgot.scss'
+import { Link } from 'react-router-dom'
 class Forgot extends Component {
     constructor(props) {
         super(props)
@@ -30,7 +31,7 @@ class Forgot extends Component {
                         
                         <div className='btn-control'>
                         <button  class="btn-cancle ">Hủy</button>
-                            <button type="submit" class="btn-submit ">Tiếp tục</button>
+                        <Link to="/reset" class="btn-link"><button  class="btn-submit ">Tiếp tục</button></Link>
                             
                         </div>
 
@@ -40,7 +41,7 @@ class Forgot extends Component {
 
                     <div className='text-title-1'>Hệ thống</div>
                     <div className='text-title-2'>QUẢN LÝ XẾP HÀNG</div>
-                </div>
+                </div> 
                 {/* <Container>
     <Row >
         <Col className='left-side'  lg={5}  sm={12}>
