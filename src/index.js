@@ -9,6 +9,9 @@ import ResetPassword from './component/auth/ResetPassword';
 
 import Login from './component/auth/Login';
 import Profile from './component/Profile/Profile';
+import Dashboard from './component/DashBoard/DashBoard';
+import Device from './component/Device/Device';
+import Table  from './component/Device/TableDevice';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +23,9 @@ root.render(
           <Route path="/forgot" element={<Forgot/>}/>
           <Route path="/reset" element={<ResetPassword/>}/>
           <Route path="/profile" element={<Profile/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
+          <Route path="/device" element={<Device/>}/>
+          <Route path="/table" element={<Table/>}/>
         </Routes>
       </BrowserRouter>
   </React.StrictMode>

@@ -36,7 +36,8 @@ class Login extends Component {
                         
                         <br></br>
                         <div className='btn-control'>
-                            <button type="submit" class="btn-submit ">Đăng nhập</button>
+                            <Link to="/profile" className='btn-link-login'><button type="submit" class="btn-submit ">Đăng nhập</button></Link>
+                            
                         </div>
 
                     </form>

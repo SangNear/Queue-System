@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:wght@400;500;600;900&family=Roboto:wght@300;400;700&display=swap");
+
+.dashboard-container {
+    flex: 9;
+    background-color: #f6f6f6;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+
+    .header {
+        height: 88px;
+        h4 {
+            position: absolute;
+            left: 30px;
+            width: 168px;
+            height: 30px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            top: 24px;
+            color: #ff9138;
+        }
+        .header-item {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            width: 229px;
+            height: 42px;
+            left: 78%;
+            top: 24px;
+            .icon-dashboard {
+                margin-right: 24px;
+                font-size: 14px;
+                /* background: #FFAC6A; */
+                width: 45px;
+                height: 32px;
+                background: #fff2e7;
+                border-radius: 25px;
+                color: #ffac6a;
+            }
+            .dashboard-img {
+                width: 40px;
+                height: 40px;
+            }
+            .title-name {
+                width: 100%;
+            }
+        }
+    }
+
+    .main {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        .dashboard {
+            flex: 8 1;
+            padding: 25px 30px;
+            .dashboard-status-list {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 35px;
+                .dashboard-status-item {
+                    border: 1px solid #ff9138;
+                    width: 186px;
+                    height: 120px;
+                    border-radius: 10px;
+                }
+            }
+            .dashboard-chart {
+                border: 1px solid #333;
+                width: 821px;
+                height: 425px;
+                border-radius: 10px;
+                margin-top: 15px;
+            }
+        }
+        .overview {
+            flex: 2;
+            padding: 25px 32px 25px 10px;
+
+            .overview-status-list {
+                margin-top: 35px;
+                .overview-status-item {
+                    border: 1px solid #333;
+                    width: 353px;
+                    height: 83px;
+                    /* margin-top: 34px; */
+                    margin-bottom: 15px;
+                    border-radius: 10px;
+                }
+            }
+
+            .overview-datetime {
+                border: 1px solid #333;
+                width: 353px;
+                height: 265px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,35 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:wght@400;500;600;900&family=Roboto:wght@300;400;700&display=swap");
 
 .menu-container {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 16%;
 
     .logo-menu {
         text-align: center;
+        height: 160px;
 
         .logo-img {
-            padding: 30px 60px 50px;
+            padding: 30px 60px 30px;
+            /* font-size: 49px; */
+            height: 80%;
         }
     }
 
     .nav-bar {
+        display: flex;
+        width: 100%;
         .nav-bar--list {
             list-style-type: none;
             padding: 0;
+            width: 100%;
+            
+            .active {
+                background-color: #ff7506;
+                .nav-bar--item--link{
+                    color: #fff !important;
+                }
+            }
 
             .nav-bar--item {
-                padding: 23px;
-
+                padding: 17px 15px;
+                width: 100%;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #ff7506;
+                    .nav-bar--item--link{
+                        color: #fff;
+                    }
+                    
+                }
+                
                 .nav-bar--item--link {
-                    font-size: 26px;
+                    font-size: 16px;
                     width: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: flex-start;
                     text-decoration: none;
                     color: #7e7d88;
+                    
                     .icon-link {
                         margin-right: 8px;
                     }
@@ -40,7 +63,7 @@
     .log-out {
         text-align: center;
         width: 100%;
-        margin-top: 40%;
+        margin-top: 65%;
         .btn-logout {
             background: #fff2e7;
             border-radius: 8px;

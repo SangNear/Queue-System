@@ -27,12 +27,12 @@ class MenuBar extends Component {
 
                     <nav className='nav-bar'>
                         <ul className='nav-bar--list'>
-                            <li className='nav-bar--item'><Link to="#" className='nav-bar--item--link'><BiGridAlt className='icon-link'/>Dashboard</Link> </li>
-                            <li className='nav-bar--item'><Link to="#" className='nav-bar--item--link'><BiDevices className='icon-link'/>Thiết bị</Link></li>
-                            <li className='nav-bar--item'><Link to="#" className='nav-bar--item--link'><BiCommentError className='icon-link'/>Dịch vụ</Link></li>
-                            <li className='nav-bar--item'><Link to="#" className='nav-bar--item--link'><BiLayer className='icon-link'/>Cấp số</Link></li>
-                            <li className='nav-bar--item'><Link to="#" className='nav-bar--item--link'><BiTrendingUp className='icon-link'/>Báo cáo</Link></li>
-                            <li className='nav-bar--item'><Link to="#" className='nav-bar--item--link'><BiWrench className='icon-link'/>Cài đặt hệ thống</Link></li>
+                            <li className='nav-bar--item  '><Link to="/" className='nav-bar--item--link '><BiGridAlt className='icon-link'/>Dashboard</Link> </li>
+                            <li className='nav-bar--item'><Link to="/device" className='nav-bar--item--link'><BiDevices className='icon-link'/>Thiết bị</Link></li>
+                            <li className='nav-bar--item'><Link to="/service" className='nav-bar--item--link'><BiCommentError className='icon-link'/>Dịch vụ</Link></li>
+                            <li className='nav-bar--item'><Link to="/number" className='nav-bar--item--link'><BiLayer className='icon-link'/>Cấp số</Link></li>
+                            <li className='nav-bar--item'><Link to="report" className='nav-bar--item--link'><BiTrendingUp className='icon-link'/>Báo cáo</Link></li>
+                            <li className='nav-bar--item'><Link to="setup" className='nav-bar--item--link'><BiWrench className='icon-link'/>Cài đặt hệ thống</Link></li>
                         </ul>
                     </nav>
 

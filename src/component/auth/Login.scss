@@ -59,6 +59,7 @@
         text-align: center;
         height: 100%;
         width: 40%;
+        /* flex: 1; */
         background: #f6f6f6;
         .logo-img {
             margin-top: 13%;
@@ -79,25 +80,32 @@
         }
         .btn-control {
             text-align: center;
+            .btn-link-login {
+                width: 100%;
+                .btn-submit {
+                    margin: 0 auto;
+                    background-color: #ff9138 !important;
+                    border: none;
+                    width: 162px;
+                    height: 40px;
+                    border-radius: 8px;
+                    color: white;
+                }
 
-            .btn-submit {
-                margin: 0 auto;
-                background-color: #ff9138 !important;
-                border: none;
-                width: 162px;
-                height: 40px;
-                border-radius: 8px;
-                color: white;
             }
+
+            
         }
     }
     .right-side {
-        width: 60%;
+        width: 80%;
         height: 100%;
         position: relative;
-        background-image: url("../../assets/img/Group 341.png");
+        
         background-position: center;
         background-repeat: no-repeat;
+
+        background-image: url("../../assets/img/Group 341.png");
 
         .text-title-1 {
             position: absolute;
@@ -113,7 +121,7 @@
         }
         .text-title-2 {
             position: absolute;
-            right: 4%;
+            right: 9%;
             top: 55%;
             font-family: "Nunito";
             font-style: normal;

@@ -4,6 +4,7 @@
     background-color: #f6f6f6;
     height: 100vh;
     position: relative;
+    width: 86%;
 
     .header {
         height: 88px;
@@ -49,12 +50,12 @@
     }
 
     .user-infomation {
-        width: 1112px;
-        height: 482px;
+        width: 78%;
+        height: 400px;
         position: absolute;
         /* border: 1px solid black; */
-        left: 18%;
-        top: 244px;
+        left: 10%;
+        top: 27%;
         display: flex;
         background: #fff;
         /* border-radius: 8px; */
@@ -72,7 +73,7 @@
                 width: 261px;
                 height: 248px;
                 left: 46px;
-                top: 70px;
+                top: 43px;
             }
 
             .icon-avatar {
@@ -92,7 +93,7 @@
                 width: 186px;
                 height: 36px;
                 left: 91px;
-                top: 348px;
+                top: 311px;
                 font-family: "Nunito";
                 font-style: normal;
                 font-weight: 700;
@@ -108,10 +109,10 @@
 
             .input-row {
                 position: absolute;
-                width: 699px;
-                height: 276px;
+                width: 618px;
+                height: 287px;
                 left: 34%;
-                top: 106px;
+                top: 49px;
 
                 .label-input {
                     width: 113px;
