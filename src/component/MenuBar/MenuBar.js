@@ -13,9 +13,13 @@ class MenuBar extends Component {
     constructor(props) {
         super(props)
         this.state = {
-
+            active: false
         }
     }
+
+    toggleClass = () => {
+        console.log("log");
+    };
 
     render() {
         return (
@@ -27,17 +31,18 @@ class MenuBar extends Component {
 
                     <nav className='nav-bar'>
                         <ul className='nav-bar--list'>
-                            <li className='nav-bar--item  '><Link to="/" className='nav-bar--item--link '><BiGridAlt className='icon-link'/>Dashboard</Link> </li>
-                            <li className='nav-bar--item'><Link to="/device" className='nav-bar--item--link'><BiDevices className='icon-link'/>Thiết bị</Link></li>
-                            <li className='nav-bar--item'><Link to="/service" className='nav-bar--item--link'><BiCommentError className='icon-link'/>Dịch vụ</Link></li>
-                            <li className='nav-bar--item'><Link to="/number" className='nav-bar--item--link'><BiLayer className='icon-link'/>Cấp số</Link></li>
-                            <li className='nav-bar--item'><Link to="report" className='nav-bar--item--link'><BiTrendingUp className='icon-link'/>Báo cáo</Link></li>
-                            <li className='nav-bar--item'><Link to="setup" className='nav-bar--item--link'><BiWrench className='icon-link'/>Cài đặt hệ thống</Link></li>
+                            {/* <li className='nav-bar--item active  '><Link to="/" className='nav-bar--item--link '><BiGridAlt className='icon-link'/>Dashboard</Link> </li> */}
+                            <li className={this.state.active ? 'nav-bar--item active-dashboard': 'nav-bar--item'} onClick={this.toggleClass}><Link to="/" className='nav-bar--item--link ' ><BiGridAlt className='icon-link' />Dashboard</Link> </li>
+                            <li className={this.state.active ? 'nav-bar--item active-device': 'nav-bar--item'} onClick={this.toggleClass}><Link to="/device" className='nav-bar--item--link'><BiDevices className='icon-link' />Thiết bị</Link></li>
+                            <li className={this.state.active ? 'nav-bar--item active-service': 'nav-bar--item'} onClick={this.toggleClass}><Link to="/service" className='nav-bar--item--link'><BiCommentError className='icon-link' />Dịch vụ</Link></li>
+                            <li className={this.state.active ? 'nav-bar--item active-number': 'nav-bar--item'} onClick={this.toggleClass}><Link to="/number" className='nav-bar--item--link'><BiLayer className='icon-link' />Cấp số</Link></li>
+                            <li className={this.state.active ? 'nav-bar--item active': 'nav-bar--item'} onClick={this.toggleClass}><Link to="report" className='nav-bar--item--link'><BiTrendingUp className='icon-link' />Báo cáo</Link></li>
+                            <li className={this.state.active ? 'nav-bar--item active': 'nav-bar--item'} onClick={this.toggleClass}><Link to="setup" className='nav-bar--item--link'><BiWrench className='icon-link' />Cài đặt hệ thống</Link></li>
                         </ul>
                     </nav>
 
                     <div className='log-out'>
-                        <button className='btn-logout'><BiLogOut className='icon-btn'/>Đăng xuất</button>
+                        <button className='btn-logout'><BiLogOut className='icon-btn' />Đăng xuất</button>
                     </div>
                 </div>
             </React.Fragment>

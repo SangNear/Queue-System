@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:wght@400;500;600;900&family=Roboto:wght@300;400;700&display=swap");
+
+.form-h4 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    /* Orange/$-Orange-500 */
+
+    color: #ff7506;
+}
+.form-control {
+    border: 1.5px solid #d4d4d7 !important;
+    border-radius: 8px;
+
+    
+}
+.device-form-select {
+    display: block;
+    width: 100%;
+    padding: 9px 10px;
+    line-height: 1.5;
+    border: 1.5px solid #d4d4d7 !important;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.col-6 {
+    margin-bottom: 25px;
+}

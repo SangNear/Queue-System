@@ -38,8 +38,8 @@ class TableDevice extends Component {
                                 <td className="column4"><div className='red'></div>Ngưng hoạt động</td>
                                 <td className="column5"><div className='green'></div>Kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -48,8 +48,8 @@ class TableDevice extends Component {
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 <td className="column5"><div className='green'></div>Kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -58,8 +58,8 @@ class TableDevice extends Component {
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 <td className="column5"><div className='red'></div>Mất kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -68,8 +68,8 @@ class TableDevice extends Component {
                                 <td className="column4"><div className='red'></div>Ngưng hoạt động</td>
                                 <td className="column5"><div className='red'></div>Mất kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -78,8 +78,8 @@ class TableDevice extends Component {
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 <td className="column5"><div className='green'></div>Kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -88,8 +88,8 @@ class TableDevice extends Component {
                                 <td className="column4"><div className='red'></div>Ngưng hoạt động</td>
                                 <td className="column5"><div className='red'></div>Mất kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -98,8 +98,8 @@ class TableDevice extends Component {
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 <td className="column5"><div className='green'></div>Kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -108,8 +108,8 @@ class TableDevice extends Component {
                                 <td className="column4"> <div className='red'></div>Ngưng hoạt động</td>
                                 <td className="column5"><div className='red'></div>Mất kết nối</td>
                                 <td className="column6">Khám tim mạch</td>
-                                <td className="column7"><Link to="#">Chi tiết</Link></td>
-                                <td className="column8"><Link to="#">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
                             </tr>
 
                             <tr>

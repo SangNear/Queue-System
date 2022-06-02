@@ -25,7 +25,11 @@ class Device extends Component {
                     <MenuBar />
                     <div className='device-container'>
                         <div className='header'>
-                            <h4>Thiết bị</h4>
+                            <div className='header-title'>
+                                <h4 className='header-title-name'>Thiết bị</h4>
+                                <span className='arrow1'>{">"}</span>
+                                <h4 className='header-title-name'>Danh sách thiết bị</h4> 
+                            </div>
 
                             <div className='header-item'>
                                 <BiBell className='icon-device' />
@@ -65,6 +69,10 @@ class Device extends Component {
                             </div>
                             <div className='device-table'>
                                 <TableDevice />
+                            </div>
+
+                            <div className='btn-add'>
+                                <Link to="#" className='btn-add-link '></Link>
                             </div>
 
                         </div>
