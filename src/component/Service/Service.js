@@ -1,16 +1,19 @@
 import React, { Component } from 'react'
-import '../Device/Device.scss'
+import '../Service/Service.scss'
 import { Link } from 'react-router-dom'
 import InfoImg from '../../assets/img/info-img.png'
 import MenuBar from '../MenuBar/MenuBar'
 import { BiBell } from "react-icons/bi"
 import { BiSearch } from "react-icons/bi"
-import TableDevice from './TableDevice'
-import { BiPlus } from "react-icons/bi"
+import TableDevice from '../Device/TableDevice'
+import { BiPlus, BiCalendar } from "react-icons/bi"
+
+import DatePickerComponent from '../DatePicker/DatePicker'
+import TableService from './TableService'
 
 
 
-class Device extends Component {
+class Service extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -22,19 +25,19 @@ class Device extends Component {
         return (
 
 
-            <div className='device-wrapper'>
+            <div className='service-wrapper'>
                 <MenuBar />
-                <div className='device-container'>
+                <div className='service-container'>
                     <div className='header'>
                         <div className='header-title'>
-                            <h4 className='header-title-name'>Thiết bị</h4>
+                            <h4 className='header-title-name'>Dịch vụ</h4>
                             <span className='arrow1'>{">"}</span>
-                            <h4 className='header-title-name'>Danh sách thiết bị</h4>
+                            <h4 className='header-title-name'>Danh sách dịch vụ</h4>
                         </div>
 
                         <div className='header-item'>
-                            <BiBell className='icon-device' />
-                            <img src={InfoImg} className='device-img' />
+                            <BiBell className='icon-service' />
+                            <img src={InfoImg} className='service-img' />
                             <div className='title-name'>
                                 <span>Xin chào<br /></span>
                                 <span>Lê huỳnh ái vân</span>
@@ -43,37 +46,41 @@ class Device extends Component {
                     </div>
 
                     <div className='body'>
-                        <h4>Danh sách thiết bị</h4>
-                        <div className='device-status-list'>
-                            <div className='device-status-active'>
+                        <h4>Quản lý dịch vụ</h4>
+                        <div className='service-status-list'>
+                            <div className='service-status-active'>
                                 <label>Trạng thái hoạt động</label>
-                                <select className='device-select'>
+                                <select className='service-select'>
                                     <option value="all">Tất cả</option>
                                     <option value="activate">Hoạt động</option>
                                     <option value="shut-down">Ngưng hoạt động</option>
                                 </select>
                             </div>
-                            <div className='device-status-connect'>
-                                <label>Trạng thái kết nối</label>
-                                <select className='device-select'>
-                                    <option value="all">Tất cả</option>
-                                    <option value="connected">Kết nối</option>
-                                    <option value="disconected">Ngắt kết nối</option>
-                                </select>
+                            <div className='service-status-connect'>
+                                <label>Chọn thời gian</label>
+                                <div className='datepicker-wrapper'>
+                                    <DatePickerComponent className="datepicker-item" />
+                                    <BiCalendar className='icon-datepicker' />
+                                    <span className='arrow1'>{">"}</span>
+                                    <DatePickerComponent className="datepicker-item">
+                                        <BiCalendar className='icon-datepicker' />
+                                    </DatePickerComponent>
+                                </div>
+
                             </div>
 
-                            <div className='device-status-search'>
+                            <div className='service-status-search'>
                                 <label>Từ khóa</label>
-                                <input type='text' className='device-select' />
+                                <input type='text' className='service-select' />
                                 <BiSearch className='icon-search' />
                             </div>
                         </div>
-                        <div className='device-table'>
-                            <TableDevice />
+                        <div className='service-table'>
+                            <TableService/>
                         </div>
 
                         <div className='btn-add'>
-                            <Link to="/addDevice" className='btn-add-link '>
+                            <Link to="/addService" className='btn-add-link '>
                                 <BiPlus className='btn-icon-add' />
                                 <span>Thêm thiết bị</span>
 
@@ -90,4 +97,4 @@ class Device extends Component {
     }
 }
 
-export default Device
+export default Service

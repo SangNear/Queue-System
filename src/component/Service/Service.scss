@@ -1,6 +1,7 @@
-.device-wrapper {
+@import url("https: //cdn.syncfusion.com/ej2/material.css");
+.service-wrapper {
     display: flex;
-    .device-container {
+    .service-container {
         flex: 9;
         background-color: #f6f6f6;
         height: 100vh;
@@ -34,7 +35,7 @@
                 height: 42px;
                 left: 77%;
                 top: 24px;
-                .icon-device {
+                .icon-service {
                     margin-right: 24px;
                     font-size: 14px;
                     /* background: #FFAC6A; */
@@ -44,7 +45,7 @@
                     border-radius: 25px;
                     color: #ffac6a;
                 }
-                .device-img {
+                .service-img {
                     width: 40px;
                     height: 40px;
                 }
@@ -60,16 +61,16 @@
                 color: #ff9138;
             }
 
-            .device-status-list {
+            .service-status-list {
                 display: flex;
                 position: relative;
-                .device-select {
+                .service-select {
                     width: 300px;
                     height: 44px;
                     border: 1.5px solid #d4d4d7;
                     border-radius: 8px;
                 }
-                .device-status-active {
+                .service-status-active {
                     position: absolute;
 
                     left: 0;
@@ -78,16 +79,32 @@
                     flex-direction: column;
                 }
 
-                .device-status-connect {
+                .service-status-connect {
                     position: absolute;
 
                     left: 28%;
                     top: 0;
                     display: flex;
                     flex-direction: column;
+                    .datepicker-wrapper {
+                        display: flex;
+                        gap: 5px;
+                        height: 39px;
+                        .datepicker-item {
+                            position: relative;
+                        }
+                        .icon-datepicker {
+                            position: absolute;
+                            left: 3px;
+                            top: 42%;
+                            /* background: #FF7506; */
+                            font-size: 18px;
+                            color: #ff7506;
+                        }
+                    }
                 }
 
-                .device-status-search {
+                .service-status-search {
                     position: absolute;
 
                     left: 70%;
@@ -102,13 +119,13 @@
                     }
                 }
             }
-            .device-table {
+            .service-table {
                 position: absolute;
                 top: 29%;
                 width: 90%;
             }
-            .device-form,
-            .device-detail {
+            .service-form,
+            .service-detail {
                 background-color: #fff;
                 /* border-radius: 5px; */
                 box-shadow: 2px 2px 8px rgb(232 239 244 / 80%);
@@ -117,7 +134,7 @@
                 width: 95%;
                 margin-top: 20px;
             }
-            .device-detail {
+            .service-detail {
                 height: 560px;
                 label {
                     font-weight: 600;
@@ -149,7 +166,7 @@
 
                 .btn-add-link {
                     text-decoration: none;
-                    color: #FF7506;
+                    color: #ff7506;
                     text-align: center;
                     .btn-icon-add {
                         width: 100%;

@@ -11,10 +11,14 @@ import Login from './component/auth/Login';
 import Profile from './component/Profile/Profile';
 import Dashboard from './component/DashBoard/DashBoard';
 import Device from './component/Device/Device';
+import Service from './component/Service/Service';
 import Table from './component/Device/TableDevice';
 import AddDevice from './component/Device/AddDevice';
 import DetailDevice from './component/Device/DetailDevice';
 import UpdateDevice from './component/Device/UpdateDevice';
+import DatePicker from './component/DatePicker/DatePicker';
+import DatePickerComponent from './component/DatePicker/DatePicker';
+import AddService from './component/Service/AddService';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,6 +40,9 @@ root.render(
         <Route path="/updateDevice" element={<UpdateDevice/>} />
         <Route path="/detailDevice" element={<DetailDevice/>} />
         <Route path="/table" element={<Table />} />
+        <Route path="/service" element={<Service/>} />
+        <Route path="/datepicker" element={<DatePickerComponent/>} />
+        <Route path="/addService" element={<AddService/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

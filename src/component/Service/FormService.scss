@@ -1,0 +1,22 @@
+.control-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .checkbox-item {
+        background: #ffffff;
+        /* Blue */
+
+        border: 1.5px solid #4277ff !important;
+        border-radius: 4px;
+    }
+    .label-item {
+        min-width: 13%;
+        margin: 10px;
+    }
+    .span-number {
+        border: 1.5px solid #d4d4d7;
+        border-radius: 8px;
+        /* padding: 10px 270px 10px 12px; */
+        padding: 5px;
+    }
+}
