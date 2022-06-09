@@ -116,7 +116,7 @@ table tbody tr:last-child {
 }
 table td,
 table th {
-    text-align: left;
+    text-align: center;
 }
 table td.l,
 table th.l {
@@ -155,25 +155,34 @@ tbody tr:hover {
 .column1 {
     width: 130px;
     padding-left: 40px;
+    text-align: center;
 }
 .column2 {
     width: 130px;
+    text-align: center;
 }
 .column3 {
-    width: 130px;
+    width: 163px;
+    text-align: center;
 }
 .column4 {
-    width: 160px;
-    text-align: right;
+    width: 272px;
+    text-align: center;
 }
 .column5 {
     width: 160px;
-    text-align: right;
+    text-align: center;
 }
 .column6 {
     width: 267px;
-    text-align: right;
+    text-align: center;
     padding-right: 62px;
+}
+.column7 {
+    width: 100px;
+}
+.column8 {
+    width: 100px;
 }
 .red {
     width: 8px;

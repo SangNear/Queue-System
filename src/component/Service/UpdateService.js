@@ -10,7 +10,7 @@ import FormService from '../Service/FormService'
 
 
 
-class AddService extends Component {
+class UpdateService extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -30,7 +30,7 @@ class AddService extends Component {
                                 <span className='arrow1'>{">"}</span>
                                 <h4 className='header-title-name'>Danh sách dịch vụ</h4>
                                 <span className='arrow1'>{">"}</span>
-                                <h4 className='header-title-name'>Thêm dịch vụ</h4>
+                                <h4 className='header-title-name'>Cập nhật dịch vụ</h4>
                             </div>
 
                             <div className='header-item'>
@@ -56,7 +56,7 @@ class AddService extends Component {
 
                         <div className='footer'>
                             <Link to="#" className='btn-cancle-link'><button className='btn-cancle'>Hủy bỏ</button></Link>
-                            <Link to="#" className='btn-add-link'><button className='btn-add'>Thêm dịch vụ</button></Link>
+                            <Link to="#" className='btn-add-link'><button className='btn-add'>Cập nhật dịch vụ</button></Link>
 
 
                         </div>
@@ -69,4 +69,4 @@ class AddService extends Component {
     }
 }
 
-export default AddService
+export default UpdateService

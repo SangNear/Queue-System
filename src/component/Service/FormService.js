@@ -26,7 +26,7 @@ class FormDevice extends Component {
                         </div>
                         <div className='col-6 mb-17'>
                             <label>Mô tả</label>
-                            <textarea className='form-control' placeholder='Mô tả dịch vụ'>
+                            <textarea className='form-control' placeholder='Mô tả dịch vụ' >
 
                             </textarea>
 

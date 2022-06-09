@@ -57,6 +57,187 @@
         .body {
             flex: 8 1;
             padding: 25px 30px;
+            .detail-service-container {
+                .row {
+                    display: flex;
+                    margin-top: 37px;
+                    gap: 15px;
+                    .device-info-container {
+                        width: 25%;
+                        box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+                        border-radius: 10px;
+                        height: 542px;
+                        background: #fff;
+                        display: flex;
+                        flex-direction: column;
+                        .device-info {
+                            height: 37%;
+                            display: flex;
+                            flex-direction: column;
+                            .device-info-title {
+                                font-family: "Nunito";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 30px;
+                                /* identical to box height, or 150% */
+
+                                /* Orange/$-Orange-500 */
+
+                                color: #ff7506;
+                                padding: 10px 10px;
+                            }
+                            .device-info-item {
+                                display: flex;
+                                padding: 10px;
+                                .device-info-label {
+                                    min-width: 106px;
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                }
+                            }
+                        }
+                        .device-rule-container {
+                            height: 60%;
+                            display: flex;
+                            flex-direction: column;
+                            .device-rule-title {
+                                font-family: "Nunito";
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 30px;
+                                /* identical to box height, or 150% */
+
+                                /* Orange/$-Orange-500 */
+
+                                color: #ff7506;
+                                padding: 10px 10px;
+                            }
+                            .device-rule-number {
+                                display: flex;
+                                padding: 10px;
+                                align-items: center;
+                                gap: 5px;
+
+                                .label-item {
+                                    min-width: 13%;
+                                    margin: 10px 0;
+                                    font-family: "Nunito";
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                }
+                                .span-number {
+                                    border: 1.5px solid #d4d4d7;
+                                    border-radius: 8px;
+                                    /* padding: 10px 270px 10px 12px; */
+                                    padding: 5px;
+                                }
+                            }
+                        }
+                    }
+                    .device-table-control {
+                        width: 65%;
+                        box-shadow: 2px 2px 8px rgba(232, 239, 244, 0.8);
+                        height: 542px;
+                        background: #fff;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        .device-status-container {
+                            display: flex;
+                            align-items: center;
+                            gap: 15px;
+                            padding: 10px;
+                            .device-status-item {
+                                width: 20%;
+                                .service-select {
+                                    padding: 10px 12px;
+                                    background: #ffffff;
+                                    border: 1.5px solid #d4d4d7;
+                                }
+                            }
+                            .device-status-time {
+                                width: 40%;
+                                .device-date-picker {
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 15px;
+                                    input {
+                                        padding: 8px 16px;
+                                        border: 1px solid #ddd !important;
+                                        width: 100%;
+                                        border-radius: 8px;
+                                    }
+                                    .icon-datepicker-1 {
+                                        position: absolute;
+                                        left: 545px;
+                                        top: 224px;
+                                        /* background: #FF7506; */
+                                        font-size: 18px;
+                                        color: #ff7506;
+                                    }
+                                    .icon-datepicker-2 {
+                                        position: absolute;
+                                        left: 710px;
+                                        top: 224px;
+                                        /* background: #FF7506; */
+                                        font-size: 18px;
+                                        color: #ff7506;
+                                    }
+                                }
+                            }
+                            .device-status-search {
+                                width: 40%;
+                                .service-select {
+                                    width: 300px;
+                                    height: 44px;
+                                    border: 1.5px solid #d4d4d7 !important;
+                                    border-radius: 8px;
+                                    position: relative;
+                                    padding: 10px;
+                                }
+                                .icon-search {
+                                    position: absolute;
+                                    top: 226px;
+                                    left: 86%;
+                                }
+                            }
+                        }
+                        .device-status-table {
+                            width: 100%;
+                        }
+                        .device-status-footer {
+                            display: flex;
+                            align-items: center;
+                            position: absolute;
+                            left: 62%;
+                            top: 90%;
+                            color: #7e7d88;
+                            .active_page {
+                                background: #ff7506;
+                                border-radius: 4px;
+                                color: #ffffff;
+
+                                padding: 0 8px;
+                            }
+                            span {
+                                width: 25px;
+                                height: 22px;
+                                margin: 0 10px 0 10px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+
             h4 {
                 color: #ff9138;
             }
@@ -90,13 +271,33 @@
                         display: flex;
                         gap: 5px;
                         height: 39px;
+                        align-items: center;
+                        input {
+                            height: 39px;
+                            background: #ffffff;
+                            /* gray blue/gray 2 - stroke */
+
+                            border: 1.5px solid #d4d4d7 !important;
+                            border-radius: 8px;
+                            padding: 10px;
+                            cursor: pointer;
+                        }
                         .datepicker-item {
                             position: relative;
                         }
-                        .icon-datepicker {
+                        .icon-datepicker-1 {
                             position: absolute;
-                            left: 3px;
-                            top: 42%;
+                            left: 6px;
+                            top: 54%;
+                            /* background: #FF7506; */
+                            font-size: 18px;
+                            color: #ff7506;
+                        }
+                        .icon-datepicker-2 {
+                            position: absolute;
+                            left: 54%;
+
+                            top: 54%;
                             /* background: #FF7506; */
                             font-size: 18px;
                             color: #ff7506;

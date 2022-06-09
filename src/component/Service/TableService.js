@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import '../Device/TableDevice.scss'
+import '../Service/TableService.scss'
 
 
 
@@ -36,8 +36,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"><div className='red'></div>Ngưng hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -45,8 +45,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -54,8 +54,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -63,8 +63,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"><div className='red'></div>Ngưng hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -72,8 +72,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -81,8 +81,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"><div className='red'></div>Ngưng hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -90,8 +90,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"><div className='green'></div>Hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
                             <tr>
                                 <td className="column1">KIO_01</td>
@@ -99,8 +99,8 @@ class TableService extends Component {
                                 <td className="column3">Mô tả dịch vụ</td>
                                 <td className="column4"> <div className='red'></div>Ngưng hoạt động</td>
                                 
-                                <td className="column7"><Link to="/detailDevice">Chi tiết</Link></td>
-                                <td className="column8"><Link to="/updateDevice">Cập nhật</Link></td>
+                                <td className="column7"><Link to="/detailService">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/updateService">Cập nhật</Link></td>
                             </tr>
 
                             <tr>

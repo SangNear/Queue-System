@@ -19,6 +19,8 @@ import UpdateDevice from './component/Device/UpdateDevice';
 import DatePicker from './component/DatePicker/DatePicker';
 import DatePickerComponent from './component/DatePicker/DatePicker';
 import AddService from './component/Service/AddService';
+import DetailService from './component/Service/DetailService'
+import UpdateService from './component/Service/UpdateService';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -43,6 +45,8 @@ root.render(
         <Route path="/service" element={<Service/>} />
         <Route path="/datepicker" element={<DatePickerComponent/>} />
         <Route path="/addService" element={<AddService/>} />
+        <Route path="/detailService" element={<DetailService/>} />
+        <Route path="/updateService" element={<UpdateService/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

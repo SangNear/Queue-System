@@ -59,12 +59,18 @@ class Service extends Component {
                             <div className='service-status-connect'>
                                 <label>Chọn thời gian</label>
                                 <div className='datepicker-wrapper'>
-                                    <DatePickerComponent className="datepicker-item" />
-                                    <BiCalendar className='icon-datepicker' />
-                                    <span className='arrow1'>{">"}</span>
                                     <DatePickerComponent className="datepicker-item">
-                                        <BiCalendar className='icon-datepicker' />
+                                        
                                     </DatePickerComponent>
+                                    <BiCalendar className='icon-datepicker-1' />
+
+                                    <span className='arrow1'>{">"}</span>
+                                    
+                                    <DatePickerComponent className="datepicker-item">
+                                        
+                                    </DatePickerComponent>
+                                    <BiCalendar className='icon-datepicker-2' />
+
                                 </div>
 
                             </div>
@@ -76,13 +82,13 @@ class Service extends Component {
                             </div>
                         </div>
                         <div className='service-table'>
-                            <TableService/>
+                            <TableService />
                         </div>
 
                         <div className='btn-add'>
                             <Link to="/addService" className='btn-add-link '>
                                 <BiPlus className='btn-icon-add' />
-                                <span>Thêm thiết bị</span>
+                                <span>Thêm dịch vụ</span>
 
                             </Link>
                         </div>

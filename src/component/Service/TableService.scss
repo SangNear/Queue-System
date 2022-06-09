@@ -138,8 +138,11 @@ table th.r {
     font-weight: unset;
     width: 252px;
 }
+tbody tr:nth-child(odd) {
+    background-color: #FFF2E7;
+}
 tbody tr:nth-child(even) {
-    background-color: #f5f5f5;
+    background-color: #fff;
 }
 tbody tr {
     font-family: OpenSans-Regular;
@@ -150,7 +153,7 @@ tbody tr {
 }
 tbody tr:hover {
     color: #555;
-    background-color: #f5f5f5;
+    background-color: #FFF2E7;
     cursor: pointer;
 }
 .column1 {
