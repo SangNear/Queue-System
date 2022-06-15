@@ -40,7 +40,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
 
                             </tr>
                             <tr>
@@ -51,7 +51,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 
                             </tr>
                             <tr>
@@ -62,7 +62,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 
                             </tr>
                             <tr>
@@ -73,7 +73,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 
                             </tr>
                             <tr>
@@ -84,7 +84,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 
                             </tr>
                             <tr>
@@ -95,7 +95,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 
                             </tr>
                             <tr>
@@ -106,7 +106,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 
                             </tr>
                             <tr>
@@ -117,7 +117,7 @@ class TableNumber extends Component {
                                 <td className="column5">11:43 13/06/2022</td>
                                 <td className="column6">Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
-                                <td className="column8"><Link to="#">Chi tiết</Link></td>
+                                <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 
                             </tr>
 

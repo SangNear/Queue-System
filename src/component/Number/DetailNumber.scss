@@ -1,0 +1,44 @@
+@import url("https: //cdn.syncfusion.com/ej2/material.css");
+
+.detail-number-container {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 547px;
+    .row {
+        gap: 0 !important;
+        padding: 20px;
+        .detail-number-title {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 48px;
+            /* identical to box height, or 150% */
+
+            /* Orange/$-Orange-500 */
+
+            color: #ff7506;
+            margin-bottom: 20px;
+        }
+        .col-6 {
+            .detail-number-label {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #282739;
+                min-width: 123px
+            }
+            .detail-number-span {
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #535261;
+            }
+        }
+    }
+    
+}

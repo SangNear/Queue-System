@@ -31,7 +31,7 @@ class Number extends Component {
                 <div className='number-container'>
                     <div className='header'>
                         <div className='header-title'>
-                            <h4 className='header-title-name'>Cấp số</h4>
+                            <h4 className='header-title-name' style={{color: '#9998a1'}}>Cấp số</h4>
                             <span className='arrow1'>{">"}</span>
                             <h4 className='header-title-name'>Danh sách cấp số</h4>
                         </div>
@@ -107,9 +107,9 @@ class Number extends Component {
                         </div>
 
                         <div className='btn-add'>
-                            <Link to="/addService" className='btn-add-link '>
+                            <Link to="/addNumber" className='btn-add-link '>
                                 <BiPlus className='btn-icon-add' />
-                                <span>Thêm dịch vụ</span>
+                                <span>Cấp số mới</span>
 
                             </Link>
                         </div>

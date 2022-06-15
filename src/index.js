@@ -22,6 +22,8 @@ import AddService from './component/Service/AddService';
 import DetailService from './component/Service/DetailService'
 import UpdateService from './component/Service/UpdateService';
 import Number from './component/Number/Number'
+import AddNumber from './component/Number/AddNumber';
+import DetailNumber from './component/Number/DetailNumber';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -48,6 +50,8 @@ root.render(
         <Route path="/detailService" element={<DetailService/>} />
         <Route path="/updateService" element={<UpdateService/>} />
         <Route path="/number" element={<Number/>} />
+        <Route path="/addNumber" element={<AddNumber/>} />
+        <Route path="/detailNumber" element={<DetailNumber/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
