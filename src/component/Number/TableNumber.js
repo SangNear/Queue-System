@@ -93,7 +93,7 @@ class TableNumber extends Component {
                                 <td className="column3">Khám tim mạch</td>
                                 <td className="column4">11:43 13/06/2022</td>
                                 <td className="column5">11:43 13/06/2022</td>
-                                <td className="column6">Đang chờ</td>
+                                <td className="column6"><div className='blue'></div>Đang chờ</td>
                                 <td className="column7">Nguồn cấp</td>
                                 <td className="column8"><Link to="/detailNumber">Chi tiết</Link></td>
                                 

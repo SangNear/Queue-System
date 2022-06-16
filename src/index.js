@@ -24,6 +24,7 @@ import UpdateService from './component/Service/UpdateService';
 import Number from './component/Number/Number'
 import AddNumber from './component/Number/AddNumber';
 import DetailNumber from './component/Number/DetailNumber';
+import Report from './component/Report/Report';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -52,6 +53,7 @@ root.render(
         <Route path="/number" element={<Number/>} />
         <Route path="/addNumber" element={<AddNumber/>} />
         <Route path="/detailNumber" element={<DetailNumber/>} />
+        <Route path="/report" element={<Report/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

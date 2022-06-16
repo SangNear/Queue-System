@@ -24,11 +24,45 @@
             list-style-type: none;
             padding: 0;
             width: 100%;
-            
+            .nav-bar-drop-item {
+                position: absolute;
+                background: #fff;
+                width: 200px;
+                height: 144px;
+                filter: drop-shadow(3px 3px 4px rgba(70, 64, 67, 0.1));
+                border-radius: 12px;
+                top: 59%;
+                left: 16%;
+                z-index: 1000;
+                // display: flex;
+                flex-direction: column;
+                border: 1px solid rgb(210, 208, 208);
+                
+                .nav-bar--drop-item-link {
+                    text-decoration: none;
+                    color: #7f838f;
+                    padding: 10px;
+                    outline: none;
+                    border: none;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #ff7506;
+                        .nav-bar--item--link {
+                            color: #fff;
+                        }
+                        
+                    }
+                }
+            }
+
+            .invisible {
+                display: none;
+            }
             .active {
                 background-color: #ff7506;
-                .nav-bar--item--link{
+                .nav-bar--item--link {
                     color: #fff !important;
+                    position: relative;
                 }
             }
             // .active-device {
@@ -62,12 +96,14 @@
                 &:hover {
                     cursor: pointer;
                     background-color: #ff7506;
-                    .nav-bar--item--link{
+                    .nav-bar--item--link {
                         color: #fff;
                     }
-                    
+                    .invisible {
+                        display: block !important;
+                    }
                 }
-                
+
                 .nav-bar--item--link {
                     font-size: 16px;
                     width: 100%;
@@ -76,6 +112,11 @@
                     justify-content: flex-start;
                     text-decoration: none;
                     color: #7e7d88;
+                    &:hover {
+                        .invisible {
+                            display: block !important;
+                        }
+                    }
                     
                     .icon-link {
                         margin-right: 8px;
