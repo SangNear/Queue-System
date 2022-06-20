@@ -1,0 +1,45 @@
+.content-left {
+    margin-top: 10px;
+}
+.content-right {
+    margin-top: 10px;
+    .group-function {
+        background: #fff2e7;
+        border-radius: 8px;
+        padding: 20px;
+        .function-a,.function-b {
+            .title-a, .title-b {
+                width: 177px;
+                height: 30px;
+                font-family: "Nunito";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+
+                /* Orange/$-Orange-500 */
+
+                color: #ff7506;
+            }
+            .group {
+                display: flex;
+                flex-direction: column;
+                .group-item {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    .checkbox {
+                        background: #ffffff;
+                        /* Blue */
+
+                        border: 1.5px solid #4277ff;
+                        border-radius: 4px;
+
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

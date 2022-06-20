@@ -41,7 +41,7 @@ class MenuBar extends Component {
                             <li className={this.state.active ? 'nav-bar--item active' : 'nav-bar--item'} onClick={this.toggleClass}>
                                 <Link to="/setup" className='nav-bar--item--link'><BiWrench className='icon-link' />
                                     Cài đặt hệ thống
-                                    <div className='nav-bar-drop-item invisible'>
+                                    <div className='nav-bar-drop-item'>
 
                                         <Link to="/qlvt" className='nav-bar--drop-item-link'>
                                             Quản lý vai trò

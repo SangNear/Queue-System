@@ -25,6 +25,8 @@ import Number from './component/Number/Number'
 import AddNumber from './component/Number/AddNumber';
 import DetailNumber from './component/Number/DetailNumber';
 import Report from './component/Report/Report';
+import Role from './component/Role/Role';
+import AddRole from './component/Role/AddRole';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -54,6 +56,10 @@ root.render(
         <Route path="/addNumber" element={<AddNumber/>} />
         <Route path="/detailNumber" element={<DetailNumber/>} />
         <Route path="/report" element={<Report/>} />
+        <Route path="/qlvt" element={<Role/>} />
+        <Route path="/addRole" element={<AddRole/>} />
+        <Route path="/account" element={<Report/>} />
+        <Route path="/history" element={<Report/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
