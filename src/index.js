@@ -27,6 +27,9 @@ import DetailNumber from './component/Number/DetailNumber';
 import Report from './component/Report/Report';
 import Role from './component/Role/Role';
 import AddRole from './component/Role/AddRole';
+import Account from './component/Account/Acccount';
+import AddAccount from './component/Account/AddAccount';
+import UpdateAccount from './component/Account/UpdateAccount';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -60,6 +63,9 @@ root.render(
         <Route path="/addRole" element={<AddRole/>} />
         <Route path="/account" element={<Report/>} />
         <Route path="/history" element={<Report/>} />
+        <Route path="/qltk" element={<Account/>} />
+        <Route path="/addAccount" element={<AddAccount/>} />
+        <Route path="/updateAccount" element={<UpdateAccount/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

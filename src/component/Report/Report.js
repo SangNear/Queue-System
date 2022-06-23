@@ -48,7 +48,7 @@ class Report extends Component {
                     </div>
 
                     <div className='body'>
-                        
+
                         <div className='number-status-list'>
 
                             <div className='number-status-connect'>
@@ -70,22 +70,22 @@ class Report extends Component {
 
                             </div>
 
-                            
+
                         </div>
                         <div className='number-table'>
-                            <TableReport/>
+                            <TableReport />
                         </div>
                         <div className='report-footer'>
-                                        <BsFillCaretLeftFill />
-                                        <span className="active_page">1</span>
-                                        <span>2</span>
-                                        <span>3</span>
-                                        <span>4</span>
-                                        <span>5</span>
-                                        <span>...</span>
-                                        <span>10</span>
-                                        <BsFillCaretRightFill />
-                                    </div>
+                            <BsFillCaretLeftFill />
+                            <span className="active_page">1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>...</span>
+                            <span>10</span>
+                            <BsFillCaretRightFill />
+                        </div>
                         <div className='btn-add'>
                             <Link to="/addNumber" className='btn-add-link '>
                                 <BiPlus className='btn-icon-add' />
